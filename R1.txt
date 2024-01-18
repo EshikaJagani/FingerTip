@@ -1,0 +1,99 @@
+#Arithetic Operator
+
+v <- c(2,5.5,6)
+t <- c(8, 3, 4)
+print(v+t)
+print(v-t)
+print(v*t)
+print(v/t)
+print(v%%t)
+print(v%/%t)
+print(v^t)
+
+
+v <- c(2,5.5,6,9)
+t <- c(8,2.5,14,9)
+
+#Relational Operator
+
+#Greater than
+v <- 5
+t <- 2
+print(v>t)
+
+#Less Than
+v <- 3
+t <- 5
+print(v < t)
+
+# Equal to == 
+v = 7
+t = 8 
+print(v ==t)
+
+# Less than or Equal to <= 
+v <- 9
+t <- 11
+print(v <= t)
+
+# Greater than or Equal to >= 
+v <- 8
+t <- 13
+print(v >=t)
+
+# Not Equal to != 
+v <- 5
+t <- 5
+print(v !=t)
+
+
+
+
+#Logical Operator
+
+# And Operator 
+print(3>2 & 8<11)
+
+# Not Operator 
+v <- TRUE
+print(!v)
+
+# && Operator 
+v <- c(6)
+t <- c(1)
+print(v&&t)
+
+# II Operator 
+
+v <- c(0)
+t <- c(0)
+print(v||t)
+
+# Assignment Operators
+# Left Assignment <-,= 
+V1 <- 5
+V2 <<- 7
+V3 = 9
+print(V1)
+print(V2)
+print(V3)
+
+
+# Right Assignment -> 
+c(3) -> v1
+c(1) ->> v2 
+print(v1)
+print(v2)
+
+# Miscellaneous Operator
+# Colon Operator : - It creates the series of numbers in sequence for a vector.
+v<-2:8
+print(v)
+
+
+
+# %in % operator
+v1 <- 8
+v2 <- 12
+t <- 1:10
+print(v1 %in%
